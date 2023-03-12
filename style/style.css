@@ -1,0 +1,88 @@
+:root{
+    --Light-purple:#666CA3;
+    --dark-blue:#13183F;
+    --gray:#83869A;
+    --pink:#F74780;
+    --light-pink: #FFA7C3;
+    --white: #FFFFFF;
+    --gradient-pink:linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    --light-grd-pink:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    --gradient-purple:linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    --light-grd-purple: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin:0 auto;
+    padding: 0 165px;
+}
+h1{
+    color:var(--dark-blue);
+    font-size: 56px;
+    font-weight:800 ;
+    line-height: 71px;
+}
+h3{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    color: var(--white);
+
+}
+h4{
+    color:var(--dark-blue);
+    font-size:24px ;
+    font-weight: 800px;
+    line-height: 30px;
+}
+
+.paragraph{
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.button{
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 18px;
+    padding:19px 31px 16px 32px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 28px;
+}
+.button-blue{
+    background-color: var(--dark-blue);
+}
+.button-blue:hover{
+    background: var(--Light-purple);
+}
+
+.button-gradient{
+    background:var(--gradient-pink);
+}
+.button-gradient:hover{
+    background:var(--light-grd-purple) ;
+}
+.button-purple{
+    background: var(--gradient-purple);
+}
+.button-purple:hover{
+    background: var(--light-grd-purple);
+}
+
+
